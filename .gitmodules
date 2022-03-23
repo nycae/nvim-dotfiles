@@ -1,0 +1,18 @@
+[submodule ".local/share/nvim/site/pack/plugins/start/onedark.nvim"]
+	path = .local/share/nvim/site/pack/plugins/start/onedark.nvim
+	url = https://github.com/navarasu/onedark.nvim
+[submodule ".local/share/nvim/site/pack/plugins/start/coc.nvim"]
+	path = .local/share/nvim/site/pack/plugins/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+[submodule ".local/share/nvim/site/pack/plugins/start/nerdtree"]
+	path = .local/share/nvim/site/pack/plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule ".local/share/nvim/site/pack/plugins/start/vim-go"]
+	path = .local/share/nvim/site/pack/plugins/start/vim-go
+	url = https://github.com/fatih/vim-go
+[submodule ".local/share/nvim/site/pack/plugins/start/vim-es7"]
+	path = .local/share/nvim/site/pack/plugins/start/vim-es7
+	url = https://github.com/kern/vim-es7
+[submodule ".local/share/nvim/site/pack/plugins/start/neovim-ayu"]
+	path = .local/share/nvim/site/pack/plugins/start/neovim-ayu
+	url = https://github.com/Shatur/neovim-ayu
