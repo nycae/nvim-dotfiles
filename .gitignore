@@ -1,0 +1,6 @@
+
+*
+
+!.gitignore
+!.bash_aliases
+!.config/nvim/init.vim
