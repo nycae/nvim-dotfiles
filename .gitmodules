@@ -25,9 +25,12 @@
 [submodule ".local/share/nvim/site/pack/plugins/start/bufferline.nvim"]
 	path = .local/share/nvim/site/pack/plugins/start/bufferline.nvim
 	url = https://github.com/akinsho/bufferline.nvim
+	branch = master
 [submodule ".local/share/nvim/site/pack/plugins/start/telescope.nvim"]
 	path = .local/share/nvim/site/pack/plugins/start/telescope.nvim
 	url = https://github.com/nvim-telescope/telescope.nvim
+	branch = master
 [submodule ".local/share/nvim/site/pack/plugins/start/plenary.nvim"]
 	path = .local/share/nvim/site/pack/plugins/start/plenary.nvim
 	url = https://github.com/nvim-lua/plenary.nvim
+	branch = master
