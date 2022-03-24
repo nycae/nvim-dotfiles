@@ -13,7 +13,7 @@
 [submodule ".local/share/nvim/site/pack/plugins/start/onenord.nvim"]
 	path = .local/share/nvim/site/pack/plugins/start/onenord.nvim
 	url = https://github.com/rmehri01/onenord.nvim
-	branch = master
+	branch = main
 [submodule ".local/share/nvim/site/pack/plugins/start/nvim-tree.lua"]
 	path = .local/share/nvim/site/pack/plugins/start/nvim-tree.lua
 	url = https://github.com/kyazdani42/nvim-tree.lua
