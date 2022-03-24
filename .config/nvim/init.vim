@@ -19,7 +19,7 @@ let g:go_fmt_command = "goimports"
 " Themes bc I'm a piece of shit
 " let g:seoul256_background = 235
 " colo seoul256
-colo onedark
+colo onenord
 
 " Default config
 :set tabstop=4
