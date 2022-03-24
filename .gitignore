@@ -1,6 +1,7 @@
 
 *
 
+!.local/share/nvim/site/pack/plugins/start/
 !.gitignore
 !.bash_aliases
 !.config/nvim/init.vim

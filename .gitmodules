@@ -1,7 +1,7 @@
 [submodule ".local/share/nvim/site/pack/plugins/start/coc.nvim"]
 	path = .local/share/nvim/site/pack/plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
-	branch = master
+	branch = release
 [submodule ".local/share/nvim/site/pack/plugins/start/vim-go"]
 	path = .local/share/nvim/site/pack/plugins/start/vim-go
 	url = https://github.com/fatih/vim-go
@@ -18,3 +18,16 @@
 	path = .local/share/nvim/site/pack/plugins/start/onenord.nvim
 	url = https://github.com/rmehri01/onenord.nvim
 	branch = master
+[submodule ".local/share/nvim/site/pack/plugins/start/nvim-tree.lua"]
+	path = .local/share/nvim/site/pack/plugins/start/nvim-tree.lua
+	url = https://github.com/kyazdani42/nvim-tree.lua
+	branch = master
+[submodule ".local/share/nvim/site/pack/plugins/start/bufferline.nvim"]
+	path = .local/share/nvim/site/pack/plugins/start/bufferline.nvim
+	url = https://github.com/akinsho/bufferline.nvim
+[submodule ".local/share/nvim/site/pack/plugins/start/telescope.nvim"]
+	path = .local/share/nvim/site/pack/plugins/start/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim
+[submodule ".local/share/nvim/site/pack/plugins/start/plenary.nvim"]
+	path = .local/share/nvim/site/pack/plugins/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim

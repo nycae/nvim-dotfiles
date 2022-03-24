@@ -52,5 +52,11 @@ let g:netrw_liststyle=3
 let g:netrw_browse_split=2
 
 " NERDTree config
-nmap <C-n> :NERDTreeToggle<CR>
+nmap <C-n> :NvimTreeToggle<CR>
+nmap <C-f> :Telescope find_files<CR>
 
+lua << EOF
+require('nvim-tree').setup()
+require('bufferline').setup()
+require('telescope').setup()
+EOF
