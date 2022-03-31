@@ -52,11 +52,36 @@ let g:netrw_liststyle=3
 let g:netrw_browse_split=2
 
 " NERDTree config
-nmap <C-n> :NvimTreeToggle<CR>
-nmap <C-f> :Telescope find_files<CR>
+nmap <silent><C-n> :NvimTreeToggle<CR>
+nmap <silent><C-f> :Telescope find_files<CR>
+nmap <silent><C-g> :Telescope live_grep<CR>
 
+" Lua plugins
+"
 lua << EOF
 require('nvim-tree').setup()
 require('bufferline').setup()
 require('telescope').setup()
+require('lualine').setup({
+  options = {
+    theme = 'onenord'
+  }
+})
 EOF
+
+" Bufferline remap
+nnoremap <silent><leader>1 <Cmd>BufferLineGoToBuffer 1<CR>
+nnoremap <silent><leader>2 <Cmd>BufferLineGoToBuffer 2<CR>
+nnoremap <silent><leader>3 <Cmd>BufferLineGoToBuffer 3<CR>
+nnoremap <silent><leader>4 <Cmd>BufferLineGoToBuffer 4<CR>
+nnoremap <silent><leader>5 <Cmd>BufferLineGoToBuffer 5<CR>
+nnoremap <silent><leader>6 <Cmd>BufferLineGoToBuffer 6<CR>
+nnoremap <silent><leader>7 <Cmd>BufferLineGoToBuffer 7<CR>
+nnoremap <silent><leader>8 <Cmd>BufferLineGoToBuffer 8<CR>
+nnoremap <silent><leader>9 <Cmd>BufferLineGoToBuffer 9<CR>
+nnoremap <silent><C-h> <Cmd>BufferLineCloseLeft<CR>
+nnoremap <silent><C-l> <Cmd>BufferLineCloseRigh<CR>
+
+" Blamer binds
+let g:blamer_date_format = '%Y-%m-%dT%H:%M'
+nmap <silent><C-b> <Cmd>BlamerToggle<CR>

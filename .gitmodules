@@ -34,3 +34,11 @@
 	path = .local/share/nvim/site/pack/plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
 	branch = release
+[submodule ".local/share/nvim/site/pack/plugins/start/blazer.vim"]
+	path = .local/share/nvim/site/pack/plugins/start/blazer.vim
+	url = https://github.com/APZelos/blamer.nvim
+	branch = master
+[submodule ".local/share/nvim/site/pack/plugins/start/lualine.vim"]
+	path = .local/share/nvim/site/pack/plugins/start/lualine.vim
+	url = https://github.com/nvim-lualine/lualine.nvim
+	branch = master
