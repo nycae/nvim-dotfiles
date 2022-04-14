@@ -42,3 +42,6 @@
 	path = .local/share/nvim/site/pack/plugins/start/lualine.vim
 	url = https://github.com/nvim-lualine/lualine.nvim
 	branch = master
+[submodule "/Users/Roberto.Plaza/.local/share/nvim/site/pack/plugins/start/zig.vim"]
+	path = /Users/Roberto.Plaza/.local/share/nvim/site/pack/plugins/start/zig.vim
+	url = https://github.com/ziglang/zig.vim

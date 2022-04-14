@@ -22,8 +22,9 @@ let g:go_fmt_command = "goimports"
 colo onenord
 
 " Default config
-:set tabstop=4
-:set shiftwidth=4
+:set expandtab
+:set tabstop=2
+:set shiftwidth=2
 :set number
 :set textwidth=120
 :syntax on
@@ -85,3 +86,5 @@ nnoremap <silent><C-l> <Cmd>BufferLineCloseRigh<CR>
 " Blamer binds
 let g:blamer_date_format = '%Y-%m-%dT%H:%M'
 nmap <silent><C-b> <Cmd>BlamerToggle<CR>
+
+" let g:coc_user_config['languageserver'].ccls.initializationOptions.clang.extraargs = [ '-std=c++17' ]
